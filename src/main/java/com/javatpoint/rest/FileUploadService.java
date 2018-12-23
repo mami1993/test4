@@ -21,7 +21,7 @@ public class FileUploadService {
 	public Response uploadFile(@FormDataParam("file") InputStream uploadedInputStream,
 			@FormDataParam("file") FormDataContentDisposition fileDetail) {
 
-		String fileLocation = "/deployments/" + fileDetail.getFileName();
+		String fileLocation = "/deployments/ROOT/" + fileDetail.getFileName();
 		// saving file
 		String output = " ";
 		try {
