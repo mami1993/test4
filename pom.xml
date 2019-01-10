@@ -11,7 +11,7 @@
 	<name>testt</name>
 
 	<build>
-		<finalName>testt</finalName>
+		<finalName>ROOT</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
